@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1rem;
+    background-color: #fafafa;
+    color: #131313;
+    font-family: 'DM Mono', monospace;
+    font-weight: 300;
+}
+
+main {
+    width: min(100%, 900px);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    font-weight: 500;
+}
+
+#name {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.35rem 0.75rem;
+    background-color: #131313;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action button {
+    display: grid;
+    width: 72px;
+    height: 48px;
+    place-items: center;
+    border: 2px solid #131313;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.1s, border-color 0.1s;
+}
+
+.action button:hover,
+.action button:focus-visible {
+    background-color: #e8e8e8;
+}
+
+.action button:focus-visible {
+    outline: 3px solid #131313;
+    outline-offset: 3px;
+}
+
+.action img {
+    display: block;
+    width: 128px;
+    height: 128px;
+    margin-bottom: -20px;
+    transform: translate(20px, 20px);
+    object-fit: contain;
+}
+
+.food-icon{
+    width: 200;
+    height: 200;
+    transform: translate(200px, 20px);
+}
+
+.bed-icon{
+
+}
+
+@media (max-width: 540px) {
+    #stats {
+        gap: 0.5rem 1.25rem;
+        font-size: 1rem;
+    }
+
+    .action button {
+        width: 64px;
+        height: 44px;
+    }
+
+    .action img {
+        width: 96px;
+        height: 96px;
+        margin-bottom: -16px;
+        transform: translate(16px, 16px);
+    }
+}
