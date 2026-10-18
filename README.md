@@ -1,8 +1,8 @@
-# Tamagochi
+# winnablade.github.io
 
 A virtual pet game inspired by the classic Tamagotchi. Take care of your pet, keep it fed and happy, and watch it grow.
 
-![](tamagoCHICHI/icons/pet-icon/happy-icon.png)
+![](icons/pet-icon/happy-icon.png)
 
 ## Getting Started 🚀
 
