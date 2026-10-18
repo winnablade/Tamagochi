@@ -38,6 +38,15 @@ h1 {
     font-weight: 500;
 }
 
+.tamagochi-icons img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 2rem;
+    object-fit: contain;
+    transform: translateX(20px);
+}
+
 #stats {
     display: flex;
     justify-content: center;
