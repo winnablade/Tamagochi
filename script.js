@@ -76,7 +76,7 @@
                     clearInterval(this.timer);
                     this.timer = null;
                 }
-            }, 300);
+            }, 3000);
 
             $('#feedBtn').addEventListener('click', act(() => {
                 this.tama.feed()
