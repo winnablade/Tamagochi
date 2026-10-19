@@ -8,7 +8,7 @@ A virtual pet game inspired by the classic Tamagotchi. Take care of your pet, ke
 
 ```bash
 git clone https://github.com/winnablade/Tamagochi.git
-cd Tamagochi/tamagoCHICHI
+cd Tamagochi
 ```
 
 ## Author
